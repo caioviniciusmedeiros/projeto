@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+}
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+body{
+    margin: 0px;
+    background-color:  #00BBC9;
+}
+header{
+    background-image: linear-gradient(to right, #00747C, #00BBC9);
+    color: white;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    
+}
+
+header > p{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 1em;
+}
+
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;;
+    margin-bottom: 10px;
+}
+
+main{
+    background-color: #CACACA;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+section > h2{
+    font-family: idroid;
+    color:#202022 ;
+    padding-top: 10px;
+    font-size: 1.8em;
+}
+
+section> h3{
+    padding-top: 10px;
+    font-family: idroid;
+    color:#202022 ;
+    background-image: linear-gradient(to right, #00747C, #3d6e71, #5f6c6d );
+    padding: 3px;
+    padding-left: 5px;
+}
+
+section > p{
+    padding: 15px;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 1.4em;
+
+}
+
+div{
+    text-align: center;
+}
+
+
+.imgf{
+    width: 100%;
+    text-align: center;
+}
+
+
+.videos{
+    background-color: #00747C ;
+    margin: auto;
+    width: 650px;
+    text-align: center;
+    padding-bottom: 15px; 
+    padding-top: 15px;  
+}
+
+
+.curiosidades{
+    background-color: #00747C;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.curiosidades > h4{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;   
+    background-color:  #00BBC9 ;
+    text-align: left;  
+    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.5em;
+}
+
+article{
+   text-decoration: none;
+   list-style: none;
+   display: inline-block;
+}
+
+.texto{
+    padding-top: 10px;
+}
+
+footer{
+    background-color: #00747C;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    
+}
+
+.atc{
+    padding-left: 80px;
+}
+
+.atc2{
+    padding-left: 80px;
+}
